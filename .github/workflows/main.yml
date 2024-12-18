@@ -1,8 +1,8 @@
 on: workflow_dispatch
 
 env:
-  JENKINS_HOST: https://jenkins.example.com/ ## jenkins base url
-  JENKINS_JOB: testJobs/HelloWorld ## builds the HelloWorld job inside testJobs
+  JENKINS_HOST: https://184.72.163.189/ ## jenkins base url
+  JENKINS_JOB: test_github_actions_job ## builds the HelloWorld job inside testJobs
   JENKINS_PARAMS: no
 
 jobs:
